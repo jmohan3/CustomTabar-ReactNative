@@ -11,7 +11,6 @@ const TabsRootLayOut = () => {
         headerShown: false,
         tabBarActiveTintColor: Colors.tabBarActive,
         tabBarInactiveTintColor: Colors.taBarInactive,
-
         tabBarStyle: { ...style.tabBar },
       }}
     >
@@ -41,9 +40,10 @@ export default TabsRootLayOut;
 
 const style = StyleSheet.create({
   tabBar: {
-    backgroundColor: "black",
+    backgroundColor: "#1e293b",
     paddingTop: 5,
     borderTopColor: "yellow",
     borderTopWidth: 1,
+    height:90
   },
 });
